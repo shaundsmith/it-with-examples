@@ -2,9 +2,35 @@
 ######_Specification-by-example style specs for Jasmine and Jest_
 
 ### Installation
-
+```yarn add it-with-examples --dev```\
+```npm install it-with-examples --save-dev```
 
 ### Use
+
+##### It With Examples
+```javascript
+eit("should show a warning message when the user submits the form without a {field} value", data => {
+    renderFormWidget();
+    
+    setFieldAsEmpty(data.field);
+    submitForm();
+    
+    expect(formMessages()).toContain(data.expectedMessage);
+}, [
+  {field: "email", expectedMessage: "Missing email"},
+  {field: "username", expectedMessage: "Missing username"},
+  {field: "password", expectedMessage: "Missing password"} 
+]);
+
+```
+
+##### Flags
+
+
+##### Focused It With Examples
+
+##### Excluded It With Examples
+
 
 
 ### Further Notes
