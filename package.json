@@ -1,7 +1,7 @@
 {
   "name": "it-with-examples",
   "description": "Jasmine/Jest \"it\" function, with the addition of examples",
-  "version": "0.0.1",
+  "version": "0.0.4",
   "main": "index.js",
   "author": "Shaun Smith",
   "license": "MIT",
@@ -24,10 +24,7 @@
     "bdd"
   ],
 
-  "repository": {
-    "type": "git",
-    "url": "https://bitbucket.org/shaunyprawn/it-with-examples/"
-  },
+  "repository": "bitbucket:shaunyprawn/it-with-examples",
 
   "scripts": {
     "test": "jest && jasmine"

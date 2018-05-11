@@ -135,4 +135,5 @@ eit("should show a warning message when the user submits the form without a {fie
 
 ### Release Versions
 0.0.1 Initial release
+0.0.4 Resolving issues with NPM repository link
  
