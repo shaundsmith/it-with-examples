@@ -2,11 +2,18 @@
 ######_Specification-by-example style specs for Jasmine and Jest_
 
 ### Installation
-```yarn add it-with-examples --dev```\
-```npm install it-with-examples --save-dev```
+
+```
+#For Yarn
+yarn add it-with-examples --dev
+```
+
+```
+#For NPM
+npm install it-with-examples --save-dev
+```
 
 ### Use
-
 ##### It With Examples
 ```javascript
 eit("should show a warning message when the user submits the form without a {field} value", data => {
@@ -23,6 +30,12 @@ eit("should show a warning message when the user submits the form without a {fie
 ]);
 
 ```
+
+````
+>should show a warning message when the user submits the form without a email field
+>should show a warning message when the user submits the form without a username field
+>should show a warning message when the user submits the form without a password field
+````
 
 ##### Flags
 
