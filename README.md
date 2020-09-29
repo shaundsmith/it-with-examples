@@ -1,5 +1,5 @@
 ## It with examples
-######_Specification-by-example style specs for Jasmine and Jest_
+###### _Specification-by-example style specs for Jasmine and Jest_
 
 It-with-examples is a small extension to Jest and Jasmine in order to allow examples to be passed into the specs.
 The overall goal is to improve the BDD experience with JavaScript unit testing frameworks, allowing multiple examples to be specified for a single spec.
@@ -134,6 +134,6 @@ eit("should show a warning message when the user submits the form without a {fie
 ```
 
 ### Release Versions
-0.0.1 Initial release
+0.0.1 Initial release  
 0.0.4 Resolving issues with NPM repository link
  
